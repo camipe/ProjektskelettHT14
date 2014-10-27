@@ -20,8 +20,8 @@
   width: 40%;
   margin: 5% auto;
   border: 1px solid tomato;
-  padding: 5% 10%;
-  font-size: 0.7em;
+  padding: 5% 7.5%;
+  font-size: 0.6em;
 }
 
 #befoexempel:before {
@@ -39,3 +39,5 @@
   color: tomato;
   padding-top: 2.5%
 }
+
+/* Different uses */

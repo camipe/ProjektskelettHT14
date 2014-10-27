@@ -1,0 +1,15 @@
+#pseudoexempel1, #pseudoexempel2 {
+  width: 30%;
+  margin: 5% 10%;
+  float: left;
+  font-size: 0.8em;
+}
+
+#firstlineexempel::first-line {
+  color: yellow;
+}
+
+#firstletterexempel::first-letter {
+  color: yellow;
+  font-size: 1.3em;
+}

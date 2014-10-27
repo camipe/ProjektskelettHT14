@@ -1,3 +1,4 @@
+/* For the example slide for pseudo-elements*/
 #pseudoexempel1, #pseudoexempel2 {
   width: 30%;
   margin: 5% 10%;
@@ -12,4 +13,29 @@
 #firstletterexempel::first-letter {
   color: yellow;
   font-size: 1.3em;
+}
+
+/* ::before & ::after example */
+#befoexempel {
+  width: 40%;
+  margin: 5% auto;
+  border: 1px solid tomato;
+  padding: 5% 10%;
+  font-size: 0.7em;
+}
+
+#befoexempel:before {
+  content: "Before";
+  display: block;
+  font-size: 0.7em;
+  color: tomato;
+  padding-bottom: 2.5%;
+}
+
+#befoexempel:after {
+  content: "After";
+  display: block;
+  font-size: 0.7em;
+  color: tomato;
+  padding-top: 2.5%
 }

@@ -81,17 +81,32 @@
 			  </section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+					<section>
+						<h2>::before &amp; ::after</h2>
+						<pre><code data-trim contenteditable>
+p::before {
+	content: "Before";
+	display: block;
+	font-size: 0.7em;
+	color: tomato;
+	padding-bottom: 2.5%;
+}
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+p::after {
+	content: "After";
+	display: block;
+	font-size: 0.7em;
+	color: tomato;
+	padding-top: 2.5%
+}
+						</code></pre>
+					</section>
+
+					<section>
+					<h2>Exempel</h2>
+					<p id="befoexempel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget tellus sit amet enim dapibus accumsan. Duis cursus odio sit amet nulla maximus, ut consequat dui euismod. Integer euismod ipsum in leo pulvinar volutpat. Nunc vulputate convallis nunc, at facilisis turpis euismod ut. Donec pretium enim eu turpis luctus luctus. Vestibulum ultrices nibh eu faucibus gravida. </p>
+					</section>
 				</section>
-
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
